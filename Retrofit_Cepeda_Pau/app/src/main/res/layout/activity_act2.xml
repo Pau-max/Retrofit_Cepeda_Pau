@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <EditText android:id="@+id/etId" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="ID del Post (ex: 5)" android:inputType="number" />
+    <Button android:id="@+id/btnSearch" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="CERCAR POST" />
+    <TextView android:id="@+id/tvPostContent" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="8dp" android:background="#F0F0F0" android:layout_marginVertical="10dp"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/rvComments" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>
